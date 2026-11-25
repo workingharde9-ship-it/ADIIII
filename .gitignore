@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.zip
+.private/
+.env*
+!.env.example
+**/secrets.h
+**/secrets.ini
+.qa/
+.playwright-cli/
+*.log
+
+
+firmware/esp32/include/local.h
+firmware/esp32/.pio/
+
+firmware/esp32/include/board_private.h
